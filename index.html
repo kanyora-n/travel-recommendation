@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Tour Diaries</title>
+    <link rel="stylesheet" href="travel_recommendation.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li>
+                <input type="text" id="searchBar" placeholder="Search for recommendations...">
+                <button id="searchBtn">Search</button>
+                <button id="clearBtn">Reset</button>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Your Tour Diaries</h1>
+        <p>Explore the world with our personalized travel recommendations for stunning places, historic temples, and exotic beaches!</p>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+        <div id="searchResults"></div> <!-- Search results will be displayed here -->
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Your Tour Diaries helps you find the best travel destinations across the globe, whether you're searching for beaches, temples, or vibrant cities.</p>
+        <h3>Meet Our Team</h3>
+        <div id="team">
+            <p><strong>John Doe:</strong> CEO & Founder</p>
+            <p><strong>Jane Smith:</strong> Lead Developer</p>
+            <p><strong>Emily Davis:</strong> Marketing Specialist</p>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- External JavaScript File -->
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
